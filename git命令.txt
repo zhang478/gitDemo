@@ -30,5 +30,5 @@ git push origin feature
 git checkout master
 
 删除分支：
-git branch -d feature_x
+git branch -d feature
 
