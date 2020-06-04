@@ -29,6 +29,11 @@ git push origin feature
 切换回主分支：
 git checkout master
 
+合并分支：
+git merge feature
+
 删除分支：
 git branch -d feature
+
+
 
