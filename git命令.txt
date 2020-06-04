@@ -21,7 +21,14 @@ git commit -m "代码提交信息"
 推送改动，提交到远端仓库（可以把 master 换成你想要推送的任何分支）：
 git push origin master   
 
-创建分支并切换：
+创建分支并切换（分支需推送到远程仓库，不然他人不可见）：
 git checkout -b feature
+推送分支：
+git push origin feature
 
+切换回主分支：
+git checkout master
+
+删除分支：
+git branch -d feature_x
 
