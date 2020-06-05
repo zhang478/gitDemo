@@ -33,8 +33,11 @@ git branch -a
 切换回主分支：
 git checkout master
 
-合并分支（分支合并后需）：
+合并分支：
 git merge feature
+
+合并分支解决冲突后，标记合并成功：
+git add filename
 
 删除本地分支：
 git branch -d feature
